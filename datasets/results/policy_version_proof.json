@@ -1,0 +1,35 @@
+{
+ "upload_status": 201,
+ "upload": {
+  "policy_id": 5,
+  "version": 2
+ },
+ "policy_rows_before": 4,
+ "policy_rows_after": 5,
+ "old_fairness_version_unchanged": true,
+ "runA": {
+  "run_id": 1,
+  "policy_version": 4,
+  "rules": [
+   "DI_RATIO",
+   "EO_DIFF",
+   "GENDER_ATTRIBUTION"
+  ]
+ },
+ "runB": {
+  "run_id": 2,
+  "policy_version": 5,
+  "rules": [
+   "DI_RATIO",
+   "DPD_GAP",
+   "EO_DIFF",
+   "GENDER_ATTRIBUTION"
+  ]
+ },
+ "runC_clean_model": {
+  "run_id": 3,
+  "policy_version": 5,
+  "rules": []
+ },
+ "report_for_runA_after_upload_names_bundle": 4
+}

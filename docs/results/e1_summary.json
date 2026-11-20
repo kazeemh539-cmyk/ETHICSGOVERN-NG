@@ -1,0 +1,71 @@
+{
+ "summary": {
+  "n_datasets": 50,
+  "tp": 13,
+  "fp": 2,
+  "fn": 2,
+  "tn": 33,
+  "precision": 0.8666666666666667,
+  "recall": 0.8666666666666667,
+  "f1": 0.8666666666666667,
+  "false_positive_rate": 0.05714285714285714,
+  "accuracy": 0.92
+ },
+ "by_level": [
+  {
+   "level": 0.0,
+   "dir_true_mean": 1.0019535873678822,
+   "dir_obs_mean": 1.0042630090162112,
+   "dir_obs_sd": 0.017707873989397972,
+   "truth_biased": 0,
+   "flagged": 0,
+   "eo_flagged": 0,
+   "model_dir_mean": 1.0091369845048586,
+   "model_flagged": 0
+  },
+  {
+   "level": 0.05,
+   "dir_true_mean": 0.9518559079994882,
+   "dir_obs_mean": 0.9507081410855202,
+   "dir_obs_sd": 0.012607194908046845,
+   "truth_biased": 0,
+   "flagged": 0,
+   "eo_flagged": 0,
+   "model_dir_mean": 0.912256600479504,
+   "model_flagged": 0
+  },
+  {
+   "level": 0.1,
+   "dir_true_mean": 0.901758228631094,
+   "dir_obs_mean": 0.8994739630239842,
+   "dir_obs_sd": 0.01625717139760544,
+   "truth_biased": 0,
+   "flagged": 0,
+   "eo_flagged": 0,
+   "model_dir_mean": 0.798121028328515,
+   "model_flagged": 7
+  },
+  {
+   "level": 0.2,
+   "dir_true_mean": 0.8015628698943058,
+   "dir_obs_mean": 0.7967638114179514,
+   "dir_obs_sd": 0.019243524265039207,
+   "truth_biased": 5,
+   "flagged": 5,
+   "eo_flagged": 9,
+   "model_dir_mean": 0.538186947590955,
+   "model_flagged": 10
+  },
+  {
+   "level": 0.3,
+   "dir_true_mean": 0.7013675111575175,
+   "dir_obs_mean": 0.7054279545814142,
+   "dir_obs_sd": 0.022687368176431914,
+   "truth_biased": 10,
+   "flagged": 10,
+   "eo_flagged": 10,
+   "model_dir_mean": 0.32355068611528787,
+   "model_flagged": 10
+  }
+ ]
+}

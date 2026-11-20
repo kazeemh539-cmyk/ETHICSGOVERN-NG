@@ -1,0 +1,92 @@
+{
+ "noise_by_window": [
+  {
+   "n": 1000,
+   "mean_dir": 0.8054705338780309,
+   "sd_dir": 0.05580530340929173,
+   "p05": 0.7254667272647958,
+   "p95": 0.9095896020589949,
+   "share_flagged": 0.48333333333333334
+  },
+  {
+   "n": 2400,
+   "mean_dir": 0.8003762566356446,
+   "sd_dir": 0.035254093781067,
+   "p05": 0.7429120660974526,
+   "p95": 0.853722078621836,
+   "share_flagged": 0.5
+  },
+  {
+   "n": 5000,
+   "mean_dir": 0.8013383560187888,
+   "sd_dir": 0.02608052015518138,
+   "p05": 0.7595965145643123,
+   "p95": 0.8426495506942807,
+   "share_flagged": 0.47333333333333333
+  },
+  {
+   "n": 10000,
+   "mean_dir": 0.7997933570276026,
+   "sd_dir": 0.01833270168161276,
+   "p05": 0.770408599821972,
+   "p95": 0.8317637703089813,
+   "share_flagged": 0.49666666666666665
+  },
+  {
+   "n": 20000,
+   "mean_dir": 0.7995328876284153,
+   "sd_dir": 0.012487722069964239,
+   "p05": 0.7785228266759723,
+   "p95": 0.8184569307619011,
+   "share_flagged": 0.5333333333333333
+  },
+  {
+   "n": 40000,
+   "mean_dir": 0.799685331309678,
+   "sd_dir": 0.009318031587013465,
+   "p05": 0.7848174407629313,
+   "p95": 0.8163976662718992,
+   "share_flagged": 0.5366666666666666
+  }
+ ],
+ "false_alarms_clean_model": {
+  "windows": 200,
+  "window_size": 2400,
+  "alarms": 0,
+  "min_dir": 0.9122653402895166,
+  "max_abs_eo": 0.09163211678832106,
+  "sd_eo": 0.01678249934357735
+ },
+ "explanation_cost_ms": {
+  "shap_single": 2.3965385050007626,
+  "lime_single": 25.589448739999625,
+  "shap_throughput_per_second": 417.26848866118337
+ },
+ "reason_codes_citing_gender": {
+  "v1": {
+   "declined": 308,
+   "reason_codes_cite_gender": 155,
+   "declined_women": 163,
+   "declined_women_cited_gender": 155
+  },
+  "v2": {
+   "declined": 256,
+   "reason_codes_cite_gender": 71,
+   "declined_women": 104,
+   "declined_women_cited_gender": 5
+  }
+ },
+ "sign_agreement_excluding_gender": {
+  "v1": 0.9085,
+  "v2": 0.918
+ },
+ "other_timings_ms": {
+  "shap_explainer_construction": 10.54475129999446,
+  "fairness_metrics_10000_rows": 0.45674100000042017,
+  "monitoring_run_end_to_end": {
+   "runs": 10,
+   "mean": 66.95291190003445,
+   "max": 81.80956700016395
+  }
+ }
+}

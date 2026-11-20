@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "EthicsGovern-NG: An Explainable AI Governance Framework and Policy Enforcement Dashboard for Nigerian Banks"
+type: software
+authors:
+  - family-names: "Kazeem"
+    given-names: "Habeeb"
+    affiliation: "Miva Open University, Abuja, Nigeria"
+version: "1.0.0"
+date-released: "2026-11-20"
+license: MIT
+repository-code: "https://github.com/kazeemh539-cmyk/ETHICSGOVERN-NG"
+keywords:
+  - AI governance
+  - explainable AI
+  - algorithmic fairness
+  - model drift
+  - policy as code
+  - Open Policy Agent
+  - Nigerian banking
+abstract: "A research prototype that measures group fairness and drift, explains decisions with SHAP and LIME, and evaluates written governance policy as executable Rego rules. All data are synthetic."

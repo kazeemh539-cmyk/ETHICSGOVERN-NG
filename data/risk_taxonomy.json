@@ -1,0 +1,267 @@
+[
+ {
+  "id": "F1",
+  "domain": "D1",
+  "domain_name": "Fairness and discrimination",
+  "name": "Direct use of protected attribute",
+  "anchor": "NDPA 2023; CBN Consumer Protection Framework 2016",
+  "testable": "yes",
+  "live_rules": [
+   "GENDER_ATTRIBUTION"
+  ]
+ },
+ {
+  "id": "F2",
+  "domain": "D1",
+  "domain_name": "Fairness and discrimination",
+  "name": "Proxy discrimination",
+  "anchor": "NDPA 2023; CBN Consumer Protection Framework 2016",
+  "testable": "yes",
+  "live_rules": []
+ },
+ {
+  "id": "F3",
+  "domain": "D1",
+  "domain_name": "Fairness and discrimination",
+  "name": "Training data representation imbalance",
+  "anchor": "NDPA 2023; CBN Consumer Protection Framework 2016",
+  "testable": "partial",
+  "live_rules": []
+ },
+ {
+  "id": "F4",
+  "domain": "D1",
+  "domain_name": "Fairness and discrimination",
+  "name": "Threshold disparity across groups",
+  "anchor": "NDPA 2023; CBN Consumer Protection Framework 2016",
+  "testable": "yes",
+  "live_rules": [
+   "DI_RATIO",
+   "EO_DIFF"
+  ]
+ },
+ {
+  "id": "F5",
+  "domain": "D1",
+  "domain_name": "Fairness and discrimination",
+  "name": "Feedback loop entrenchment",
+  "anchor": "NDPA 2023; CBN Consumer Protection Framework 2016",
+  "testable": "partial",
+  "live_rules": []
+ },
+ {
+  "id": "T1",
+  "domain": "D2",
+  "domain_name": "Transparency and explainability",
+  "name": "No decision reason available",
+  "anchor": "NDPA 2023; GAID 2025; CBN Consumer Protection Regulations 2019",
+  "testable": "yes",
+  "live_rules": [
+   "EXPLAIN_REQUIRED"
+  ]
+ },
+ {
+  "id": "T2",
+  "domain": "D2",
+  "domain_name": "Transparency and explainability",
+  "name": "Explanation not intelligible to customer",
+  "anchor": "NDPA 2023; GAID 2025; CBN Consumer Protection Regulations 2019",
+  "testable": "no",
+  "live_rules": []
+ },
+ {
+  "id": "T3",
+  "domain": "D2",
+  "domain_name": "Transparency and explainability",
+  "name": "Undisclosed automated decision-making",
+  "anchor": "NDPA 2023; GAID 2025; CBN Consumer Protection Regulations 2019",
+  "testable": "no",
+  "live_rules": []
+ },
+ {
+  "id": "T4",
+  "domain": "D2",
+  "domain_name": "Transparency and explainability",
+  "name": "Model documentation absent or stale",
+  "anchor": "NDPA 2023; GAID 2025; CBN Consumer Protection Regulations 2019",
+  "testable": "no",
+  "live_rules": []
+ },
+ {
+  "id": "P1",
+  "domain": "D3",
+  "domain_name": "Privacy and data protection",
+  "name": "Processing without lawful basis",
+  "anchor": "NDPA 2023; GAID 2025",
+  "testable": "no",
+  "live_rules": []
+ },
+ {
+  "id": "P2",
+  "domain": "D3",
+  "domain_name": "Privacy and data protection",
+  "name": "Excessive feature collection",
+  "anchor": "NDPA 2023; GAID 2025",
+  "testable": "partial",
+  "live_rules": []
+ },
+ {
+  "id": "P3",
+  "domain": "D3",
+  "domain_name": "Privacy and data protection",
+  "name": "Cross-border transfer of training data",
+  "anchor": "NDPA 2023; GAID 2025",
+  "testable": "no",
+  "live_rules": []
+ },
+ {
+  "id": "P4",
+  "domain": "D3",
+  "domain_name": "Privacy and data protection",
+  "name": "Re-identification from model outputs",
+  "anchor": "NDPA 2023; GAID 2025",
+  "testable": "no",
+  "live_rules": []
+ },
+ {
+  "id": "P5",
+  "domain": "D3",
+  "domain_name": "Privacy and data protection",
+  "name": "No DPIA for high-risk processing",
+  "anchor": "NDPA 2023; GAID 2025",
+  "testable": "no",
+  "live_rules": []
+ },
+ {
+  "id": "R1",
+  "domain": "D4",
+  "domain_name": "Robustness and performance",
+  "name": "Feature drift",
+  "anchor": "CBN Cybersecurity Framework 2024; BCBS 239",
+  "testable": "yes",
+  "live_rules": [
+   "DRIFT_FEATURE"
+  ]
+ },
+ {
+  "id": "R2",
+  "domain": "D4",
+  "domain_name": "Robustness and performance",
+  "name": "Prediction drift",
+  "anchor": "CBN Cybersecurity Framework 2024; BCBS 239",
+  "testable": "yes",
+  "live_rules": [
+   "DRIFT_PREDICTION"
+  ]
+ },
+ {
+  "id": "R3",
+  "domain": "D4",
+  "domain_name": "Robustness and performance",
+  "name": "Performance degradation on subgroups",
+  "anchor": "CBN Cybersecurity Framework 2024; BCBS 239",
+  "testable": "yes",
+  "live_rules": []
+ },
+ {
+  "id": "R4",
+  "domain": "D4",
+  "domain_name": "Robustness and performance",
+  "name": "Adversarial manipulation of inputs",
+  "anchor": "CBN Cybersecurity Framework 2024; BCBS 239",
+  "testable": "partial",
+  "live_rules": []
+ },
+ {
+  "id": "R5",
+  "domain": "D4",
+  "domain_name": "Robustness and performance",
+  "name": "Silent failure of upstream data pipeline",
+  "anchor": "CBN Cybersecurity Framework 2024; BCBS 239",
+  "testable": "yes",
+  "live_rules": []
+ },
+ {
+  "id": "A1",
+  "domain": "D5",
+  "domain_name": "Accountability and oversight",
+  "name": "No named model owner",
+  "anchor": "ISO/IEC 42001; CBN risk register expectations",
+  "testable": "yes",
+  "live_rules": [
+   "NO_OWNER"
+  ]
+ },
+ {
+  "id": "A2",
+  "domain": "D5",
+  "domain_name": "Accountability and oversight",
+  "name": "No human review of adverse decisions",
+  "anchor": "ISO/IEC 42001; CBN risk register expectations",
+  "testable": "no",
+  "live_rules": []
+ },
+ {
+  "id": "A3",
+  "domain": "D5",
+  "domain_name": "Accountability and oversight",
+  "name": "No challenge or appeal route",
+  "anchor": "ISO/IEC 42001; CBN risk register expectations",
+  "testable": "no",
+  "live_rules": []
+ },
+ {
+  "id": "A4",
+  "domain": "D5",
+  "domain_name": "Accountability and oversight",
+  "name": "Unlogged model or threshold change",
+  "anchor": "ISO/IEC 42001; CBN risk register expectations",
+  "testable": "yes",
+  "live_rules": []
+ },
+ {
+  "id": "S1",
+  "domain": "D6",
+  "domain_name": "Third party and supply chain",
+  "name": "Vendor model with no assurance evidence",
+  "anchor": "GAID 2025; CBN third-party risk requirements",
+  "testable": "assessment",
+  "live_rules": []
+ },
+ {
+  "id": "S2",
+  "domain": "D6",
+  "domain_name": "Third party and supply chain",
+  "name": "Undisclosed sub-processing",
+  "anchor": "GAID 2025; CBN third-party risk requirements",
+  "testable": "assessment",
+  "live_rules": []
+ },
+ {
+  "id": "S3",
+  "domain": "D6",
+  "domain_name": "Third party and supply chain",
+  "name": "Vendor concentration",
+  "anchor": "GAID 2025; CBN third-party risk requirements",
+  "testable": "assessment",
+  "live_rules": []
+ },
+ {
+  "id": "S4",
+  "domain": "D6",
+  "domain_name": "Third party and supply chain",
+  "name": "Licence or continuity risk on model artefacts",
+  "anchor": "GAID 2025; CBN third-party risk requirements",
+  "testable": "assessment",
+  "live_rules": []
+ },
+ {
+  "id": "S5",
+  "domain": "D6",
+  "domain_name": "Third party and supply chain",
+  "name": "Training data provenance unknown",
+  "anchor": "GAID 2025; CBN third-party risk requirements",
+  "testable": "assessment",
+  "live_rules": []
+ }
+]

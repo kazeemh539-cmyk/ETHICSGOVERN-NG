@@ -1,0 +1,1 @@
+Superseded. Chapter 5 of EthicsGovern-NG_Project_v2.docx is generated from the files in this folder (e1_raw.csv, e2_summary.json, e3_raw_latency.csv, e4_task_results.csv, supplementary.json). See the dataset package for a data dictionary.

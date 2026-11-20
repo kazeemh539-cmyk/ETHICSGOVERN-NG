@@ -1,0 +1,1 @@
+{"name":"ethicsgovern-ng-frontend","private":true,"version":"1.0.0","scripts":{"build":"node build.mjs"},"dependencies":{"chart.js":"^4.4.3","esbuild":"^0.21.5","react":"^18.3.1","react-dom":"^18.3.1"}}

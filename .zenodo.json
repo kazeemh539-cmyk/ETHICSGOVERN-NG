@@ -1,0 +1,10 @@
+{
+  "title": "EthicsGovern-NG: An Explainable AI Governance Framework and Policy Enforcement Dashboard for Nigerian Banks",
+  "upload_type": "software",
+  "description": "Source code, synthetic datasets, experiment scripts and database dump for a research prototype that measures group fairness and drift, explains decisions with SHAP and LIME, and evaluates written governance policy as executable Rego rules in Open Policy Agent. Produced for the Professional Master's project of Habeeb Kazeem at Miva Open University. All data are synthetic.",
+  "creators": [{"name": "Kazeem, Habeeb", "affiliation": "Miva Open University, Abuja, Nigeria"}],
+  "keywords": ["AI governance", "explainable AI", "algorithmic fairness", "model drift", "policy as code", "Open Policy Agent", "Nigerian banking"],
+  "license": "mit",
+  "access_right": "open",
+  "version": "1.0.0"
+}
